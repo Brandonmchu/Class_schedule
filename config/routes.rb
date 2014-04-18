@@ -1,6 +1,7 @@
 ClassSchedule::Application.routes.draw do
   resources :students
   resources :courses
+  resources :departments
   root to: 'students#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
